@@ -1,4 +1,5 @@
-[
+{
+ "medra_code": [
   {
     "id": 10002272,
     "MedDRA SOC": "Blood and lymphatic system disorders",
@@ -10043,4 +10044,5 @@
     "Definition": "A disorder characterized by inflammation involving the wall of a vessel.",
     "Navigational Note": ""
   }
-]
+ ]
+}
