@@ -9,7 +9,7 @@ Process used to create a JSON file and providing it via a API for testing (not f
 2. Change the header of first column from `MedDRA Code` to `id`
 3. Select and copy columns A throug J
 4. Paste into https://csvjson.com/csv2json and convert
-5. Download resulting file and add surrunding DB structure plus acces via URL as described at https://my-json-server.typicode.com/
+5. Download resulting file and add surrounding DB structure (and read about acces via URL) as described at https://my-json-server.typicode.com/ in this case that would mean add `{ "medra_code": ` at the start of the file (before the first `[` sign) and add `}` to the end of the file (after the last `]` sign)
 6. Access (for testing, not for production use) via the described URL-patterns. For my particular example repo that would be https://my-json-server.typicode.com/ErikSundvall/ctcae/medra_code/{add_code_here} for example looking up "Fatigue" by it's code https://my-json-server.typicode.com/ErikSundvall/ctcae/medra_code/10016256 
 
 
